@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            font-size: 35px;
+            text-align: center;
+            color:green;
+        }
+        [id]{
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        [id=p1]{
+            background-color: rgb(236, 142, 18);
+        }
+         [title~=chotichoti]{
+            color: blueviolet;
+            background-color: aqua;
+         }
+         div[title^="new"]{
+            background-color: bisque;
+         }
+        [title$="gena"]{
+            background-color: brown;
+            color: rgb(18, 235, 65);
+         }
+         [title|="oy"]{
+            background-color: rgb(241, 95, 173);
+         }
+         [title*="chuse"]{
+            color:rgb(199, 160, 236);
+            background-color: rgb(192, 237, 237);
+         }
+         [id=p5]{
+            background-color: rgb(222, 222, 61);
+         }
+         [title^="arere"]{
+            background-color: rgb(217, 18, 18);
+            color: blue;
+         }
+         [title$="maru"]{
+            background-color: aquamarine;
+            color:brown
+         }
+         [id=p7]{
+            background-color: rgb(185, 69, 243);
+         }
+
+
+    </style>
+</head>
+<body>
+    <h2 >Media Player</h2>
+    <div id="p1"><p>Chiru chiru</p>
+        <audio controls>
+            <source src="./Chiru Chiru Chiru.mp3" type="audio/mp3">
+        </audio>  
+    </div>
+    <div id="p2" title="chotichoti"><p>Choti choti baatein</p>
+        <audio controls muted>
+            <source src="./Choti Choti Baatein.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div  title="newyork">
+        <p>Newyork Nagaram</p>
+        <audio controls>
+            <source src="./Newyork Nagaram.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="p3" title="meghamKarigena">
+        <p>Megham Karigena</p>
+        <audio controls muted>
+            <source src="./Megham Karigena.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div title="oy-oy">
+        <p>Oy Oy</p>
+        <audio controls>
+            <source src="./Oy! Oy!.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="p4" title="ninnuchuseanandamlo">
+        <p>Ninnu Chuse Anandamlo</p>
+        <audio controls loop>
+            <source src="./Ninnu Chuse Anandamlo.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="p5">
+        <p>Chittemma</p>
+            <audio controls>
+                <source src="./Chittemma.mp3" type="audio/mp3">
+            </audio>
+    </div>
+    <div id="p6" title="arere-vaanaa">
+        <p>Arere Vaanaa</p>
+        <audio controls muted>
+            <source src="./Arere Vaanaa.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="p6" title="okamaru">
+        <p>Okamaru Klasina</p>
+        <audio controls loop>
+            <source src="./Okamaru Kalasina.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="p7">
+        <p>Appudo Ippudo</p>
+        <audio controls>
+            <source src="./Appudo Ippudo.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    
+</body>
+
+</html>
